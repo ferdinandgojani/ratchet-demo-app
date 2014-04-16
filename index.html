@@ -13,7 +13,12 @@
 
     <!-- Include the compiled Ratchet CSS -->
     <link href="/css/ratchet.css" rel="stylesheet">
-<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
+    <!-- Optionally, include either the iOS or Android theme -->
+    <link href="/css/ratchet-theme-ios.css" rel="stylesheet">
+
+    <link rel="apple-touch-icon-precomposed" sizes="128x128" href="/img/niceicon.png">
+
     <!-- Include the compiled Ratchet JS -->
     <script src="/js/ratchet.js"></script>
   </head>
@@ -21,64 +26,73 @@
 
     <!-- Make sure all your bars are the first things in your <body> -->
     <header class="bar bar-nav">
-      <h1 class="title">Ratchet</h1>
+      <a class="icon icon-gear pull-right" href="#settingsModal"></a>
+      <h1 class="title">Total Basement Finishing</h1>
     </header>
 
     <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
     <div class="content">
-       <ul class="table-view">
-  <li class="table-view-cell media">
-    <a class="navigate-right">
-      <img class="media-object pull-left" src="http://placehold.it/42x42">
-      <div class="media-body">
-        Item 1
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet.</p>
+      <div class="content-padded">
+        <h3>SALES Process</h3>
+        <p>Click Around to learn how to sell TBF like a BOSS.</p>
       </div>
-    </a>
-  </li>
-  <li class="table-view-cell media">
-    <a class="navigate-right">
-      <img class="media-object pull-left" src="http://placehold.it/42x42">
-      <div class="media-body">
-        Item 1
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet.</p>
+      <div class="card">
+        <ul class="table-view">
+          <li class="table-view-cell">
+            <a class="push-right" href="examples/9-steps.html" data-transition="slide-in">
+              <strong>9 Steps</strong>
+            </a>
+          </li>
+          <li class="table-view-cell">
+            <a class="push-right" href="examples/scripts.html" data-transition="slide-in">
+              <strong>Scripts</strong>
+            </a>
+          </li>
+          <li class="table-view-cell">
+            <a class="push-right" href="examples/materials.html" data-transition="slide-in">
+              <strong>Materials</strong>
+            </a>
+          </li>
+          <li class="table-view-cell">
+            <a class="push-right" href="examples/closing-trail.html" data-transition="slide-in">
+              <strong>Closing Trail</strong>
+            </a>
+          </li>
+        </ul>
       </div>
-    </a>
-  </li>
-  <li class="table-view-cell media">
-    <a class="navigate-right">
-      <img class="media-object pull-left" src="http://placehold.it/42x42">
-      <div class="media-body">
-        Item 1
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet.</p>
-      </div>
-    </a>
-  </li>
-</ul>
+    </div>
 
-<nav class="bar bar-tab">
-  <a class="tab-item active" href="#">
-    <span class="icon icon-home"></span>
-    <span class="tab-label">Home</span>
-  </a>
-  <a class="tab-item" href="/slider.html" data-transition="slide-in">
-    <span class="icon icon-person"></span>
-    <span class="tab-label">Chapter</span>
-  </a>
-  <a class="tab-item" href="#">
-    <span class="icon icon-star-filled"></span>
-    <span class="tab-label">Favorites</span>
-  </a>
-  <a class="tab-item" href="#">
-    <span class="icon icon-search"></span>
-    <span class="tab-label">Search</span>
-  </a>
-  <a class="tab-item" href="#">
-    <span class="icon icon-gear"></span>
-    <span class="tab-label">Settings</span>
-  </a>
-</nav>
+    <!-- Settings Modal -->
+    <div id="settingsModal" class="modal">
+      <header class="bar bar-nav">
+        <a class="icon icon-close pull-right" href="#settingsModal"></a>
+        <h1 class="title">Settings</h1>
+      </header>
 
+      <div class="content">
+        <form class="input-group">
+          <input type="text" placeholder="Full name">
+          <input type="email" placeholder="Email">
+          <input type="text" placeholder="Username">
+        </form>
+
+        <h5 class="content-padded">App settings</h5>
+
+        <ul class="table-view">
+          <li class="table-view-cell media">
+            <span class="media-object pull-left icon icon-sound"></span>
+            <div class="media-body">
+              Enable sounds
+            </div>
+            <div class="toggle">
+              <div class="toggle-handle"></div>
+            </div>
+          </li>
+        </ul>
+        <div class="content-padded">
+          <button class="btn btn-positive btn-block">Save settings</button>
+        </div>
+      </div>
     </div>
 
   </body>
