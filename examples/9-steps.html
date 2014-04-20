@@ -17,6 +17,8 @@
     <!-- Optionally, include either the iOS or Android theme -->
     <link href="/css/ratchet-theme-ios.css" rel="stylesheet">
 
+    <link href="/css/main.css" rel="stylesheet">
+
     <!-- Include the compiled Ratchet JS -->
     <script src="/js/ratchet.js"></script>
   </head>
@@ -25,94 +27,103 @@
     <!-- Make sure all your bars are the first things in your <body> -->
 
     <header class="bar bar-nav">
-  <a href="#popover">
-    <h1 class="title">
-      9 Steps
-      <span class="icon icon-caret"></span>
-    </h1>
-  </a>
+        <h1 class="title">
+          9 Steps to A Sale
+          <span class="icon icon-caret"></span>
+        </h1>
+      </a>
 </header>
 
-   <div id="popover" class="popover">
-  <header class="bar bar-nav">
-    <h1 class="title">Jump To Other Steps</h1>
-  </header>
-  <ul class="table-view">
-    <li class="table-view-cell">Item1</li>
-    <li class="table-view-cell">Item2</li>
-    <li class="table-view-cell">Item3</li>
-    <li class="table-view-cell">Item4</li>
-    <li class="table-view-cell">Item5</li>
-    <li class="table-view-cell">Item6</li>
-    <li class="table-view-cell">Item7</li>
-    <li class="table-view-cell">Item8</li>
-    <li class="table-view-cell">Item9</li>
-  </ul>
-</div>
+<header class="bar bar-nav">
+  <a href="/" class="icon icon-left-nav pull-left"></a>
+  <h1 class="title">9 Steps to A Sale</h1>
+</header>
 
     <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
     <div class="content">
 
-      <!-- Note: For this slider example, you'll need some additional styles not included with Ratchet -->
-      <style>
+    <div class="list card">
 
-        .slider .slide img {
-          display: block;
-          width: 100%;
-          height: 570px;
-        }
+          <div class="item item-avatar">
+            <img src="http://ionicframework.com/img/docs/mcfly.jpg">
+            <h2>Step 1</h2>
+            <p>Handle The Incoming Call</p>
+          </div>
 
-        .slider .slide-group .slide-text {
-          position: absolute;
-          top: 45%;
-          left: 0;
-          width: 100%;
-          font-size: 24px;
-          color: #fff;
-          text-align: center;
-          text-shadow: 0 0 10px rgba(0,0,0,.5);
-        }
-
-      </style>
-
-      <div class="slider">
-        <div class="slide-group">
-          <div class="slide">
-            <img src="/img/slide01.jpg">
-            <span class="slide-text">
-              <span class="icon icon-left-nav"></span>
-              Slide to Get Started
-            </span>
-          </div>
-          <div class="slide">
-            <img src="http://placehold.it/640&text=slide1">
-          </div>
-          <div class="slide">
-             <img src="http://placehold.it/640&text=slide2">
-          </div>
-           <div class="slide">
-             <img src="/img/step3-bg.png">
-          </div>
-           <div class="slide">
-             <img src="http://placehold.it/640&text=slide4">
-          </div>
-           <div class="slide">
-             <img src="http://placehold.it/640&text=slide5">
-          </div>
-           <div class="slide">
-             <img src="http://placehold.it/640&text=slide6">
-          </div>
-           <div class="slide">
-             <img src="http://placehold.it/640&text=slide7">
-          </div>
-           <div class="slide">
-             <img src="http://placehold.it/640&text=slide8">
-          </div>
-           <div class="slide">
-             <img src="http://placehold.it/640&text=slide9">
+          <div class="item item-body">
+            <img class="full-image" src="http://ionicframework.com/img/docs/delorean.jpg">
+            <p>
+              Lower sales resistance, schedule the appointment
+            </p>
           </div>
         </div>
-      </div>
+
+        <div class="list card">
+
+          <div class="item item-avatar">
+            <img src="http://ionicframework.com/img/docs/mcfly.jpg">
+            <h2>Step 2</h2>
+            <p>Pre-Mailing</p>
+          </div>
+
+          <div class="item item-body">
+            <img class="full-image" src="http://ionicframework.com/img/docs/delorean.jpg">
+            <p>
+              TBF Brochure, 'Personal Profile' sheet, references, Basement Finishing Science book, Creating Spaces DVD
+            </p>
+            <p>
+              <a href="#" class="subdued">1 Like</a>
+              <a href="#" class="subdued">5 Comments</a>
+            </p>
+          </div>
+ 
+
+        </div>
+
+        <div class="list card">
+
+          <div class="item item-avatar">
+            <img src="http://ionicframework.com/img/docs/mcfly.jpg">
+            <h2>Step 3</h2>
+            <p>Confirm, Arrive, Warm-Up</p>
+          </div>
+
+          <div class="item item-body">
+            <img class="full-image" src="http://ionicframework.com/img/docs/delorean.jpg">
+            <p>
+            verbal warm-up, 
+            </p>
+            <p>
+              <a href="#" class="subdued">1 Like</a>
+              <a href="#" class="subdued">5 Comments</a>
+            </p>
+          </div>
+ 
+
+        </div>
+
+
+        <div class="list card">
+
+          <div class="item item-avatar">
+            <img src="http://ionicframework.com/img/docs/mcfly.jpg">
+            <h2>Step 3</h2>
+            <p>Confirm, Arrive, Warm-Up</p>
+          </div>
+
+          <div class="item item-body">
+            <img class="full-image" src="http://ionicframework.com/img/docs/delorean.jpg">
+            <p>
+            verbal warm-up, 
+            </p>
+            <p>
+              <a href="#" class="subdued">1 Like</a>
+              <a href="#" class="subdued">5 Comments</a>
+            </p>
+          </div>
+ 
+
+        </div>
 
     </div>
 

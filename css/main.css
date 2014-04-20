@@ -1,0 +1,81 @@
+.bar {
+background-color: #967ADC;
+}
+
+.title {
+	color:white;
+}
+
+.full-image {
+width: 100%;
+}
+
+
+/**
+ * Cards and Inset Lists
+ * --------------------------------------------------
+ * A card and list-inset are close to the same thing, except a card as a box shadow.
+ */
+.card, .list-inset {
+  overflow: hidden;
+  margin: 20px 10px;
+  border-radius: 2px;
+  background-color: #fff; }
+
+.card {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); }
+
+.card .item:first-child, .list-inset .item:first-child, .padding > .list .item:first-child {
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px; }
+  .card .item:first-child .item-content, .list-inset .item:first-child .item-content, .padding > .list .item:first-child .item-content {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px; }
+.card .item:last-child, .list-inset .item:last-child, .padding > .list .item:last-child {
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px; }
+  .card .item:last-child .item-content, .list-inset .item:last-child .item-content, .padding > .list .item:last-child .item-content {
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px; }
+
+.card .item:last-child, .list-inset .item:last-child {
+  margin-bottom: -1px; }
+
+.card .item, .list-inset .item, .padding > .list .item, .padding-horizontal > .list .item {
+  margin-right: 0;
+  margin-left: 0; 
+  padding-top: 18px;
+}
+
+.item h2 {
+margin: 0 0 4px 0;
+font-size: 16px;
+}
+  .item-body {
+  overflow: auto;
+  padding: 15px;
+  text-overflow: inherit;
+  white-space: normal; }
+  .item-body h1, .item-body h2, .item-body h3, .item-body h4, .item-body h5, .item-body h6, .item-body p {
+    margin-top: 15px;
+    margin-bottom: 15px; }
+
+
+    .item-avatar, .item-avatar .item-content {
+padding-left: 70px;
+min-height: 70px;
+}
+
+
+
+.item-avatar > img:first-child, .item-avatar .item-image, .item-avatar .item-content > img:first-child, .item-avatar .item-content .item-image {
+position: absolute;
+top: 15px;
+left: 15px;
+max-width: 40px;
+max-height: 40px;
+width: 100%;
+border-radius: 4px;
+}
