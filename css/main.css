@@ -10,6 +10,22 @@ background-color: #967ADC;
 width: 100%;
 }
 
+.slider {
+overflow: hidden;
+background-color: transparent;
+}
+
+.table-view .icon {
+  background-color: #fff;
+border: 1px solid #ddd;
+border-radius: 25px;  
+width: 50px;
+height: 50px;
+margin: 3px;
+font-size: 24px;
+line-height: 50px;
+text-align: center;
+}
 
 /**
  * Cards and Inset Lists
@@ -25,6 +41,7 @@ width: 100%;
 .card {
   padding-top: 1px;
   padding-bottom: 1px;
+  position:relative;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); }
 
 .card .item:first-child, .list-inset .item:first-child, .padding > .list .item:first-child {
@@ -72,8 +89,7 @@ min-height: 70px;
 
 .item-avatar > img:first-child, .item-avatar .item-image, .item-avatar .item-content > img:first-child, .item-avatar .item-content .item-image {
 position: absolute;
-top: 15px;
-left: 15px;
+left: 20px;
 max-width: 40px;
 max-height: 40px;
 width: 100%;
