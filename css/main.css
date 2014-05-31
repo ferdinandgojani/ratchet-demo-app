@@ -16,7 +16,9 @@ background-color: transparent;
 }
 
 
- 
+img {
+  max-width: 100%;
+}
 
 .table-view .icon {
   background-color: #fff;
