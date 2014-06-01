@@ -204,7 +204,9 @@ border-radius: 4px;
 
 
 
-
+.materials .media-body {
+  margin:15px auto;
+}
 
 
 
