@@ -1,6 +1,19 @@
+img {
+  max-width: 100%;
+}
+
+.center {
+  text-align: center;
+  margin: 10px auto;
+}
+
 .bar {
 background-color: #967ADC;
 }
+
+.bar-tab .tab-item {
+    color:white;
+  }
 
 .title {
 	color:white;
@@ -16,12 +29,10 @@ background-color: transparent;
 }
 
 
-img {
-  max-width: 100%;
-}
+
 
 .table-view .icon {
-  background-color: #fff;
+background-color: #fff;
 border: 1px solid #ddd;
 border-radius: 25px;  
 width: 50px;
@@ -33,9 +44,7 @@ text-align: center;
 }
 
 /**
- * Cards and Inset Lists
- * --------------------------------------------------
- * A card and list-inset are close to the same thing, except a card as a box shadow.
+ * Cards Lists
  */
 .card, .list-inset {
   overflow: hidden;
