@@ -350,8 +350,6 @@ background: #5be225;
 .module-history h3,
 .module-history time {
   overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
 }
 .module-history h3 {
   color: #404040;
