@@ -21,6 +21,10 @@ h1, h2, h3 {
   margin: 10px auto;
 }
 
+.left {
+  float:left;
+}
+
 .bar {
 background-color: #967ADC;
 }
@@ -50,6 +54,27 @@ background-color: transparent;
   color: #00A79F;
 }
 
+.home-tabs {
+  overflow:hidden;
+}
+.home-icons {
+    width:50%;
+    margin:0 0 20px 0;
+    padding: 20px;
+    border: 1px solid #cacaca;
+}
+
+.home-icons a {
+  color:;
+}
+
+.home-icons span {
+   
+}
+.fa {
+  font-size:75px;
+  width: 100%;
+}
 
 .table-view .icon {
 background-color: #fff;
