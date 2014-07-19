@@ -97,6 +97,19 @@ text-align: center;
   background:#EC008C;
 }
 
+.price-right h1 {
+  font-style: italic;
+  text-align: center;
+  font-size:34px;
+  color:#4D2377;
+}
+
+.price-right .price-details-box {
+  background: #00AAA4;
+  color:white !important;
+  padding:10px;
+  margin:10px 0;
+}
 /**
  * index animations
  */
