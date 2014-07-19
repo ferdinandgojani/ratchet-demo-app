@@ -56,25 +56,28 @@ background-color: transparent;
 
 .home-tabs {
   overflow:hidden;
+  border: 1px solid #cacaca;
+  background: white;
+  box-shadow: 3px 2px 5px 2px #ccc;
 }
 .home-icons {
     width:50%;
     margin:0 0 20px 0;
     padding: 20px;
-    border: 1px solid #cacaca;
 }
 
-.home-icons a {
-  color:;
-}
+ 
 
-.home-icons span {
-   
-}
+ 
 .fa {
   font-size:75px;
   width: 100%;
+  color:#462D8F;
 }
+
+ .home-icons .tab-item span {
+  color:#00A79F;
+ }
 
 .table-view .icon {
 background-color: #fff;
