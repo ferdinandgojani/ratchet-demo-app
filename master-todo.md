@@ -15,14 +15,14 @@
 
 ##Materials
 - [ ] "Cost VS Value" - we can review this together. We might not need ALL of the information on there but let's talk.
-- [ ]"If the Price is Right" - Just a typo, otherwise good to go for now (If you are withinG $xxxx of the cost.....)
-- [ ]"Right Sizing" - Let's clarify when a salesperson talks (script) and when a homeowner speaks. This will make it easier to follow/read. The form in the binder uses red for homeowner and blue for salesperson.
+- [ ] "If the Price is Right" - Just a typo, otherwise good to go for now (If you are withinG $xxxx of the cost.....)
+- [ ] "Right Sizing" - Let's clarify when a salesperson talks (script) and when a homeowner speaks. This will make it easier to follow/read. The form in the binder uses red for homeowner and blue for salesperson.
 - [ ] Overall, there seems to be a more updated version of this form and we might need to manually enter it. I can do that though if you show me how.
 
 ##Closing Trail
 - [ ] When selecting a script, a page pops up and you have to hit the "x" in the top right of the screen. If you hit the back button on your phone, it brings you back to whatever other page you were looking at before and not back to the list of the Closing trial. Let's make it the same across the board, whichever way that means.
 - [ ] "Last Shot" and "Follow-Up Date" are missing
-- [ ] When scrolling down the list, it opens whatever step you have your finger on at the moment after you have scrolled. It would be better if it scrolled, stopped and then you would need to select a step again. 
+- [ ]  When scrolling down the list, it opens whatever step you have your finger on at the moment after you have scrolled. It would be better if it scrolled, stopped and then you would need to select a step again. 
 - [ ] Overall, we need to figure out what all of those steps need to say. Again, I will help with that. Just tell me what you need.
 
 ##Overall
