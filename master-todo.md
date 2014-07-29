@@ -21,7 +21,7 @@
 
 ##Closing Trail
 - [ ] When selecting a script, a page pops up and you have to hit the "x" in the top right of the screen. If you hit the back button on your phone, it brings you back to whatever other page you were looking at before and not back to the list of the Closing trial. Let's make it the same across the board, whichever way that means.
-- [ ] "Last Shot" and "Follow-Up Date" are missing
+- [x] "Last Shot" and "Follow-Up Date" are missing
 - [ ]  When scrolling down the list, it opens whatever step you have your finger on at the moment after you have scrolled. It would be better if it scrolled, stopped and then you would need to select a step again. 
 - [ ] Overall, we need to figure out what all of those steps need to say. Again, I will help with that. Just tell me what you need.
 
