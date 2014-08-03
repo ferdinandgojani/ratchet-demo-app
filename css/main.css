@@ -408,6 +408,10 @@ background: #462D8F;
 }
 
 
+.closing-trail .btn {
+  margin: 10px;
+  font-size:18px;
+}
 
 .table {
     width: 100%;
